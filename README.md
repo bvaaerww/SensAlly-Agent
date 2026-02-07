@@ -1,1155 +1,1155 @@
-# SensAlly Agent - 英语学习Agent
+[English](README.md) | [中文](README_zh.md)
+
+# SensAlly Agent - English Learning Agent
 
 > **Your Contextual Learning Ally**
 
-![首页](screenshots/home.png)
+![Home](screenshots/home.png)
 
-## 🚀 立即体验
+## 🚀 Try It Now
 
 👉 **[app.sensally.com](https://app.sensally.com)**
 
 ---
 
-# **SensAlly 英语学习 Agent APP 完整介绍**
+# **SensAlly English Learning Agent APP — Full Introduction**
 
 
-**核心理念：**  用一个持续不断理解你的 Agent，把学习变成“被看见、被善待、顺着热爱”的长期旅程——不催、不罚、不归零，陪你慢慢变自由。
-**核心优势：**  用LLM Agent 让学习变得不羞耻、不断档、可长期坚持——从而真正实现：学进去、学得久、用得出。
+**Core Philosophy:**  An Agent that continuously understands you, turning learning into a long-term journey where you are seen, treated with kindness, and guided by your passions — no pressure, no punishment, no resetting to zero. It walks with you, slowly, toward freedom.
+**Core Advantage:**  Using an LLM Agent to make learning shame-free, uninterrupted, and sustainable for the long haul — so you truly absorb it, stick with it, and use it.
 
 
-**🆚 为什么不直接用 ChatGPT 网页，要用SensAlly Agent？**
+**🆚 Why Use SensAlly Agent Instead of ChatGPT Web?**
 
-简单解释的版本：就像现在编程没有人用ChatGPT网页对话，用的是Agent（Cursor，Codex，ClaudeCode），学习也一样，网页对话解决不了关键的、麻烦的问题，就只能使用Agent。
+The simple version: Just as no one codes via ChatGPT's web chat anymore — they use Agents (Cursor, Codex, Claude Code) — learning is the same. Chat-based interfaces can't solve the critical, complex problems, so you need an Agent.
 
-## **本质问题**
+## **The Core Problem**
 
-用 ChatGPT 网页学英语，**你需要自己当老师**——规划学什么、安排复习、追踪进度、调整难度、维持动力。这本身就是一项消耗巨大的隐形劳动。ChatGPT 它有 Memory \+ Custom Instructions，可以记住偏好/目标并用于后续对话；但官方也明确：Memory 更适合“高层次偏好”，不适合存大量模板或大段精确内容（信息来源：[https://help.openai.com/en/articles/8590148-memory-faq](https://help.openai.com/en/articles/8590148-memory-faq)），属于对话型通用工具。
+Learning English with ChatGPT web means **you have to be your own teacher** — planning what to study, scheduling reviews, tracking progress, adjusting difficulty, and maintaining motivation. This is an enormous hidden labor. ChatGPT has Memory \+ Custom Instructions that can remember preferences/goals for future conversations, but as officially stated: Memory is better suited for "high-level preferences," not for storing large templates or extensive precise content (source: [https://help.openai.com/en/articles/8590148-memory-faq](https://help.openai.com/en/articles/8590148-memory-faq)). It remains a general-purpose conversational tool.
 
-SensAlly Agent **只需要做一件事：学** ，Agent 会自动的在陪伴中持续不断的积累并更新对你的理解，比如：你的兴趣爱好，你目前的英语水平，哪个语法点你总搞混、哪种解释方式让你秒懂、什么节奏让你学得进去，等等所有关于学习的内容。后续学习中所用到的内容生成还有对话，都基于这份活的、持续更新的完整理解与大量的精确信息，而不是静态的用户画像。
+With SensAlly Agent, **you only need to do one thing: learn**. The Agent automatically and continuously accumulates and updates its understanding of you through ongoing interaction — your interests, your current English level, which grammar points you always confuse, which explanation styles click for you, what pace keeps you engaged, and everything else about your learning. All subsequent content generation and conversations are based on this living, continuously updated, comprehensive understanding with precise information — not a static user profile.
 
-## **核心定位差异**
+## **Core Positioning Difference**
 
-|  | ChatGPT 网页 | SensAlly Agent |
+|  | ChatGPT Web | SensAlly Agent |
 | :---- | :---- | :---- |
-| **本质** | 通用聊天工具，你问它答 | 专为英语学习设计的 Agent 系统 |
-| **交互模式** | 你必须主动提问、组织学习流程 | 一个「开始学习」按钮，Agent持续理不断的理解和更新学习情况与相关信息，然后主动为你安排学习内容，同时保留自行调整的功能 |
+| **Essence** | General chat tool — you ask, it answers | An Agent system designed specifically for English learning |
+| **Interaction Model** | You must proactively ask questions and organize the learning process | One "Start Learning" button — the Agent continuously understands and updates your learning situation, proactively arranges your content, while preserving your ability to adjust |
 
 
-**逐项对比**
+**Feature-by-Feature Comparison**
 
-| 用户痛点 | ChatGPT 网页的替代方式 | SensAlly 的开箱即用方案 | 价值表述 |
+| User Pain Point | ChatGPT Web Workaround | SensAlly's Out-of-the-Box Solution | Value Statement |
 | :---- | :---- | :---- | :---- |
-| **不知道从哪里开始，第一步很重** | 你要自己想目标、写提示词、让它评估水平、规划今日任务；每次打开都要“重新组织一次学习”。 | Onboarding 用英语聊聊自己 → Agent 持续分析更新你的学习情况与相关信息 → \*\*一个按钮「开始学习」\*\*直接进入当下最合适的内容。 | **把“开始”变轻：30 秒进入个性化学习轨道。** |
-| **学习计划/复习安排太费脑，容易放弃** | 你要主动要求“制定复习计划/间隔复习”，自己记录完成情况（笔记/表格/提醒），再不断回到同一套流程。 | 不分学习/复习；点「开始学习」就自动安排：该新学的、巩固的、快忘的、该深入的都会出现。 | **零计划成本：你只负责学，系统负责调度。** |
-| **一断档就“归零感”强、愧疚、怕点开** | 你要翻历史对话找进度，重新告诉它“我上次学到哪、我忘了啥”，再重新搭回节奏。 | 进度自动保存；断了回来像什么都没发生一样继续；不会用“天数统计”指责你。 | **不断档、不归零：回归成本≈0。** |
-| **怕错、怕被评判，长期压力大** | 你得不断提醒它“别评判、温柔点、以鼓励为主”，否则体验很依赖你当下怎么带节奏。 | 题型默认“没有对错，只有进步”；后台做隐形分析与调整，前台只给鼓励式反馈。 | **降低羞耻感：让错误变成进步的数据。** |
-| **内容千人一面，学着学着没意思** | 你需要反复强调兴趣与偏好等等信息：“换成篮球/美剧/数码…再生成一版”；不满意再手动改提示词。 | “语境画面 \+ 语域解码 \+ 题目”全部按兴趣和难度还有所有Agent持续分析的理解生成；不满意一键「🔄重新生成」并可追加反馈（更口语/更短/多举例）。 | **每个人的内容都不一样：兴趣就是引擎。** |
-| **“背会了”但不会用：语气不对、场景用错** | 你要额外追问：正式度、场景边界、母语者默认表达、搭配、反例；而且每个词都得你重复这一套问法。 | 直接产品化为「语域解码·元思维」五件套：边界/频率默认/语义解压缩/词源画面/语感总结，并且可按兴趣定制例句。 | **从“知道意思”到“用得地道”：把会用做成默认交付。** |
-| **练习题做着像考试：扣分、挫败、逃避** | 你要自己要求“不要标准答案/用引导式反馈/按我水平出题”，并且手动控制难度与题型多样性。 | AI 互动题型：动态生成、难度自动调、鼓励式反馈；“换一题/重写题目”即时刷新。 | **练习不再像审判：把练习变成安全的成长场。** |
-| **难度要刚好：太简单浪费、太难打击** | 你每次都要描述自己状态：“今天轻松点/更难点/按 B2 输出”；没说清就容易忽上忽下。 | 内置 Desirable Difficulty：Agent 把内容稳定控制在“够得着但要跳一下”的区间。 | **持续在最佳挑战区：让你一直愿意继续。** |
-| **碎片时间利用不了：3 分钟学不了什么** | 你要自己切碎任务：今天只练 1 题/只学 3 词/只纠 2 句；否则容易“开了也不知道做啥”。 | 3 分钟也能点「开始学习」直接收获；中途退出自动保存，下次无缝续上。 | **碎片化也有闭环收益：随时开始、随时停下。** |
-| **真实语料不足：学了像“教材英语”** | 你要自己找视频/文章，再把片段贴给它解释、举例、做练习；流程分散、成本高。 | 词汇配套 TED 视频实例：流媒体播放、真实语境、多话题覆盖。 | **从课堂到真实世界：把输入质量做成标配。** |
-| **发音练习摩擦高：不敢开口、听不准** | 你要开语音模式或复制文本去念读；很多时候“只想点一下听读”也要切模式/操作多步。 | 选中即播放：任意文字实时 TTS、缓存秒播、美/英切换、偏好云同步。 | **把“听+跟读”做到零摩擦：开口门槛直接降低。** |
-| **学习闭环靠你串起来：学词→练习→反馈→复习** | 你要自己把流程编排成“习惯”（甚至用笔记/提醒/模板），并保持一致执行；一忙就散。 | 模块化学习流程 \+ 后台隐形分析 \+ 下次自动排序；你只管学习，系统自动完成闭环。 | **学习自动化：把坚持从“意志力”变成“系统力”。** |
-| **想覆盖教材/考试体系：找资料与整理成本巨大** | 你需要自己提供教材内容或逐章提问，自己做目录、做进度、做错题回顾。 | 覆盖 TOEFL/IELTS/GRE/四六级/考研/人教版/外研/新概念/商务/牛津核心词等，并结合 Agent 个性化生成。 | **内容体系 \+ 个性化引擎：打开就能系统学。** |
-| **付费心理门槛：怕订阅后“用不够”或“断了亏”** | 多数是订阅心智：你得持续用才“回本”，断档时心理负担更大。 | 透明计费：官方成本 + 服务费（≤30%），利润超5%的部分返还余额。 | **把“付费风险”降到最低：更适合长期、断续的真实学习节奏。** |
+| **Don't know where to start; the first step feels heavy** | You have to set goals, write prompts, get it to assess your level, plan today's tasks; every session requires "reorganizing your study." | Onboarding: chat about yourself in English → Agent continuously analyzes and updates your learning profile → **one button "Start Learning"** jumps straight into the most suitable content. | **Make starting effortless: 30 seconds to a personalized learning track.** |
+| **Study plans / review schedules are mentally draining; easy to give up** | You must manually request "spaced repetition plans," track completion (notes/spreadsheets/reminders), and keep returning to the same workflow. | No distinction between learning and review; tap "Start Learning" and it auto-arranges: new material, reinforcement, fading memories, deeper dives — all appear. | **Zero planning cost: you just learn, the system schedules.** |
+| **Any break triggers a "back to zero" feeling — guilt, fear of opening the app** | You have to dig through chat history to find progress, re-explain "where I left off, what I forgot," and rebuild momentum. | Progress auto-saves; come back after a break and it continues as if nothing happened; no "streak counter" to shame you. | **No interruption, no reset: return cost ≈ 0.** |
+| **Fear of mistakes, fear of judgment, long-term pressure** | You must constantly remind it "don't judge, be gentle, focus on encouragement," otherwise the experience depends on how well you steer the conversation. | Exercises default to "no right or wrong, only progress"; background invisible analysis and adjustment, frontend only delivers encouraging feedback. | **Reduce shame: turn mistakes into data for progress.** |
+| **One-size-fits-all content gets boring** | You need to repeatedly specify interests and preferences: "switch to basketball/TV shows/tech… regenerate"; manually rewrite prompts when unsatisfied. | "Context Scenes \+ Register Decoding \+ Exercises" all generated based on interests, difficulty, and all the Agent's continuously analyzed understanding; one-click "🔄 Regenerate" with feedback ("more colloquial/shorter/more examples"). | **Everyone's content is different: interest is the engine.** |
+| **"Memorized" but can't use it: wrong tone, wrong context** | You must separately ask about formality, usage boundaries, native default expressions, collocations, counterexamples; repeat this for every word. | Productized as the "Register Decoding · Meta-Thinking" five-piece suite: boundaries/frequency defaults/semantic decompression/etymological imagery/intuition summary, with interest-customized example sentences. | **From "knowing the meaning" to "using it naturally": making proper usage the default delivery.** |
+| **Exercises feel like exams: point deductions, frustration, avoidance** | You must request "no standard answers/guided feedback/level-appropriate questions" and manually control difficulty and variety. | AI interactive exercises: dynamically generated, auto-adjusted difficulty, encouraging feedback; "Next Question/Rewrite" for instant refresh. | **Practice no longer feels like a trial: turn practice into a safe growth space.** |
+| **Difficulty must be just right: too easy wastes time, too hard discourages** | Every time you must describe your state: "go easier today/harder/output at B2"; unclear instructions lead to erratic difficulty. | Built-in Desirable Difficulty: Agent keeps content stable in the "reachable but requires a stretch" zone. | **Stay in the optimal challenge zone: keep wanting to continue.** |
+| **Can't use fragmented time: 3 minutes isn't enough to learn anything** | You must break tasks down yourself: just 1 question/3 words/2 sentence corrections today; otherwise "opened the app but don't know what to do." | 3 minutes is enough to tap "Start Learning" and gain something; exit anytime with auto-save, seamlessly resume next time. | **Fragmented time, complete results: start anytime, stop anytime.** |
+| **Lack of authentic materials: learning feels like "textbook English"** | You must find videos/articles yourself, paste clips for explanation, examples, and exercises; scattered workflow, high cost. | Vocabulary paired with TED video examples: streaming playback, real-world context, multi-topic coverage. | **From classroom to real world: make input quality the standard.** |
+| **Pronunciation practice has high friction: afraid to speak, can't hear clearly** | You need to switch to voice mode or copy text to read aloud; even "just wanting to tap and listen" requires mode switching/multiple steps. | Select-to-Play: any text gets real-time TTS, cached instant playback, US/UK accent switching, preferences synced to cloud. | **Zero-friction listen + repeat: directly lower the barrier to speaking.** |
+| **Learning loop depends on you: learn → practice → feedback → review** | You must orchestrate the workflow into a "habit" (even using notes/reminders/templates) and maintain consistent execution; falls apart when busy. | Modular learning flow \+ background invisible analysis \+ auto-sequencing next session; you just learn, the system closes the loop. | **Automated learning: turn persistence from "willpower" into "system power."** |
+| **Want to cover textbook/exam systems: huge cost to find and organize materials** | You must provide textbook content or ask chapter by chapter, build your own table of contents, track progress, review mistakes. | Covers TOEFL/IELTS/GRE/CET-4&6/Postgrad Entrance/PEP/FLTRP/New Concept/Business/Oxford Core Words, combined with Agent personalization. | **Content system + personalization engine: open it and start systematic learning.** |
+| **Subscription anxiety: afraid of "not using enough" or "wasting money after a break"** | Most use subscription mindset: you must keep using it to "get your money's worth," making breaks feel even more burdensome. | Transparent billing: official cost + service fee (≤30%), profits exceeding 5% are returned to your account balance. | **Minimize payment risk: better suited for real learning rhythms — long-term and intermittent.** |
 
-**ChatGPT 是通用工具**——如果你用 ChatGPT 网页版学英语，你不仅是一个学生，还得是半个老师——你需要自己设计课程、自己安排复习进度、自己构思提示词来挖掘单词深度。这不仅累，而且容易因为“不知道该怎么问”或“忘记坚持”而放弃。
+**ChatGPT is a general-purpose tool** — if you use ChatGPT web to learn English, you're not just a student, you're also half a teacher — you need to design your own curriculum, schedule your own reviews, and craft your own prompts to dig into vocabulary depth. This is not only exhausting but also easy to abandon because of "not knowing how to ask" or "forgetting to keep going."
 
-**SensAlly Agent 是一个私人教练**——你只需要出现，它知道你是谁、你在哪、你该往哪走，然后陪你走。
+**SensAlly Agent is a personal coach** — you just need to show up. It knows who you are, where you are, and where you should go. Then it walks with you.
 
 
-**🆚 为什么不用传统学习软件（背单词APP等）？**
+**🆚 Why Not Use Traditional Learning Apps (Flashcard Apps, etc.)?**
 
-| 传统学习软件 | SensAlly Agent |
+| Traditional Learning Apps | SensAlly Agent |
 | :---- | :---- |
-| 固定的学习路径 | 动态生成，完全围绕你展开 |
-| 千人一面的内容 | 每个人的内容都不一样 |
-| 被动接受评判 | 没有对错，只有进步 |
-| 需要你去适应 | Agent 来适应你 |
-| 老师会忘记你 | Agent 永远记得你的一切 |
-| 学习和复习分开，漏了会焦虑 | 只有「开始学习」，Agent 替你安排 |
+| Fixed learning paths | Dynamically generated, entirely centered around you |
+| One-size-fits-all content | Everyone's content is different |
+| Passively receiving judgment | No right or wrong, only progress |
+| You adapt to it | The Agent adapts to you |
+| Teachers forget you | The Agent remembers everything about you |
+| Learning and review are separate; missing reviews causes anxiety | Just "Start Learning" — the Agent arranges everything for you |
 
 
-**1\. Agent 不是聊天**
+**1\. An Agent, Not a Chatbot**
 
-这个 APP 与传统英语学习软件有本质区别。它不是一个「聊天对话LLM」，也不是一个「传统的固定程序」，而是一个使用Langgraph，Streamlit，FastAPI技术栈做出的的类似于 ClaudeCode 的 Agent 应用。
+This APP is fundamentally different from traditional English learning software. It is neither a "chat-based LLM" nor a "traditional fixed program" — it is an Agent application built with LangGraph, Streamlit, and FastAPI, similar in concept to Claude Code.
 
-![模块化学习](screenshots/modules.png)
+![Modular Learning](screenshots/modules.png)
 
-## **1.1 👋 Onboarding：以兴趣为路拾级而上**
+## **1.1 👋 Onboarding: Step Up Through Your Interests**
 
 ![Onboarding](screenshots/onboarding.png)
 
-不是填表格，是**聊聊你自己**——可以用任何语言完成。
+It's not filling out a form — it's **chatting about yourself** — in any language you like.
 
-| 环节 | 说明 |
+| Step | Description |
 | :---- | :---- |
-| 💬 **轻松对话** | 聊聊你最近喜欢的东西：游戏、音乐、电影、运动… |
-| 🎯 **水平评估** | 通过这段对话，Agent 了解你目前的英语水平 |
-| ❤️ **兴趣记录** | 你的兴趣会影响后续所有学习内容的生成 |
-| 📈 **持续优化** | 在之后的学习过程中，Agent 会持续分析并更新对你的理解 |
+| 💬 **Casual Chat** | Talk about what you've been into lately: games, music, movies, sports... |
+| 🎯 **Level Assessment** | Through this conversation, the Agent understands your current English level |
+| ❤️ **Interest Capture** | Your interests will shape all future learning content generation |
+| 📈 **Continuous Refinement** | Throughout your learning journey, the Agent continuously analyzes and updates its understanding of you |
 
-> 💡 不会的词可以用中文代替，这不是考试，放松聊就好！
+> 💡 Don't know a word? Use your native language — this isn't a test. Just relax and chat!
 
-# **2\. 覆盖几乎所有英语教材**
+# **2\. Covers Nearly Every English Curriculum**
 
-| 分类 | 包含内容 |
+| Category | Included Content |
 | :---- | :---- |
-| 出国考试 | TOEFL、IELTS、GRE、GMAT、SAT |
-| 大学英语 | 四级、六级、专四、专八、考研 |
-| 高中英语 | 高中英语（新课标、综合、人教版等） |
-| 人教版英语 | 一到七年级上下、八年级上下、九年级全一册 |
-| 北师大版高中英语 | 必修一至选修三 |
-| 外研版英语 | 多版本覆盖 |
-| 商务英语 | BEC、商务场景 |
-| 新概念英语 | 第一至四册 |
-| 牛津核心词 | Oxford 3000 等 |
+| Study Abroad Exams | TOEFL, IELTS, GRE, GMAT, SAT |
+| College English (China) | CET-4, CET-6, TEM-4, TEM-8, Postgrad Entrance |
+| High School English | New Curriculum Standard, Comprehensive, PEP editions |
+| PEP English | Grades 1-7 (both semesters), Grade 8 (both semesters), Grade 9 (full year) |
+| BNUP High School English | Compulsory 1 through Elective 3 |
+| FLTRP English | Multiple editions covered |
+| Business English | BEC, business scenarios |
+| New Concept English | Books 1 through 4 |
+| Oxford Core Words | Oxford 3000 and more |
 
-所有内容都会结合 Agent 的优势进行个性化生成 —— 接下来介绍的每一个模块，都会根据你的兴趣爱好和英语水平等信息量身定制。
+All content is personalized through the Agent's capabilities — every module introduced below is tailored based on your interests, English level, and other profile information.
 
-# **3\. 🧠 语域解码 · 元思维**
+# **3\. 🧠 Register Decoding · Meta-Thinking**
 
 https://github.com/user-attachments/assets/081d325b-e6f8-4e60-9070-2ac36ccfbc08
 
-![词汇详解](screenshots/vocabulary.png)
+![Vocabulary Details](screenshots/vocabulary.png)
 
-这是 SensAlly 最核心的创新之一。传统词典只告诉你「这个词是什么意思」，而语域解码告诉你「母语者是怎么真正用这个词的」
+This is one of SensAlly's most core innovations. Traditional dictionaries only tell you "what this word means," while Register Decoding tells you "how native speakers actually use this word."
 
-### **五大核心模块**
+### **Five Core Modules**
 
-## **3.1 语域与使用边界**
+## **3.1 Register & Usage Boundaries**
 
-**好处：** 避免「说出来让老外发笑」的尴尬
+**Benefit:** Avoid the embarrassment of saying something that makes native speakers laugh
 
-* 告诉你这个词在什么场景用、什么场景绝对不能用  
-* 举出「超出语域母语者会发笑」的幽默例子  
-* 让你像母语者一样自然地选词
+* Tells you which contexts a word belongs in — and which ones it absolutely doesn't
+* Provides humorous examples of "out-of-register" usage that would make natives chuckle
+* Helps you choose words as naturally as a native speaker
 
-**示例：** 比如 "awesome"
+**Example:** Take "awesome"
 
-* ✅ 朋友聊天："That movie was awesome\!"  
-* ❌ 商务邮件："Your proposal is awesome." （太随意，会让人觉得不专业）
+* ✅ Chatting with friends: "That movie was awesome\!"
+* ❌ Business email: "Your proposal is awesome." (Too casual — comes across as unprofessional)
 
-## **3.2 使用频率与默认表达**
+## **3.2 Usage Frequency & Default Expressions**
 
-**好处：** 掌握「美国人的第一反应」
+**Benefit:** Master "what Americans think of first"
 
-* 当美国人想表达某个意思时，他们第一个想到的词是什么  
-* 什么场景下这个词是「默认选择」  
-* 帮你建立和母语者一样的「词汇直觉」
+* When an American wants to express a certain meaning, what's the first word that comes to mind?
+* In which contexts is this word the "default choice"?
+* Helps you build the same "vocabulary intuition" as native speakers
 
-## **3.3 语义解压缩**
+## **3.3 Semantic Decompression**
 
-**好处：** 用「触发线索 \+ 决策规则」快速选词
+**Benefit:** Use "trigger cues \+ decision rules" to quickly choose the right word
 
-这是一个创新的思维框架：
+An innovative thinking framework:
 
-触发线索：你想表达什么？  
-    ├─ 如果是 A 场景 → 用义项 1  
-    ├─ 如果是 B 场景 → 用义项 2  
-    └─ 如果是 C 场景 → 用义项 3
+Trigger cue: What do you want to express?
+    ├─ If context A → use sense 1
+    ├─ If context B → use sense 2
+    └─ If context C → use sense 3
 
-## **3.4 词源学解释：为什么一个词会有多个意思？**
+## **3.4 Etymology: Why Does One Word Have Multiple Meanings?**
 
-**好处：** 用一个词源学「画面」串联所有义项
+**Benefit:** Use one etymological "image" to connect all senses
 
-* 从词源学角度还原这个词描绘的原始画面  
-* 解释所有看似不相关的义项其实都来自同一个核心概念  
-* 让你「举一反三」，遇到新义项也能猜出意思
+* Reconstructs the original image the word depicted from an etymological perspective
+* Explains how all seemingly unrelated senses actually stem from the same core concept
+* Lets you "learn one, infer many" — even guess the meaning of new senses
 
-## **3.5 综上通过科学快速建立综合语言感知总结**
+## **3.5 Scientific Synthesis for Building Comprehensive Language Intuition**
 
-**好处：「语感」，不再是玄学**
+**Benefit: "Language intuition" is no longer mystical**
 
-传统观念认为「语感是学多了才能有」，但 SensAlly 通过科学的元认知方法，让语感可以直接获取。
+Conventional wisdom says "you only develop language feel after years of exposure," but SensAlly uses scientific metacognitive methods to make language intuition directly accessible.
 
 
-**🎯 Agent 让语域解码「只属于你」**
+**🎯 The Agent Makes Register Decoding "Uniquely Yours"**
 
-这意味着：同样一个单词 **campaign**
+This means: for the same word **campaign**
 
-| 如果你的兴趣是... | 生成的例句/场景会是... |
+| If your interest is... | The generated examples/scenes will be... |
 | :---- | :---- |
-| 🏀 NBA | 湖人的季后赛征程 |
-| 📺 美剧纸牌屋 | Frank Underwood 的总统竞选 |
-| 🍎 iPhone数码产品 | iPhone 发布前的预热营销 |
+| 🏀 NBA | The Lakers' playoff campaign |
+| 📺 House of Cards | Frank Underwood's presidential campaign |
+| 🍎 iPhone & Tech | iPhone's pre-launch marketing campaign |
 
-**你不满意？随时可以重新生成！** 点击「🔄 重新生成」按钮，还可以输入反馈如「更口语」「更短」「多举例」，Agent 会按照你的要求调整。
+**Not satisfied? Regenerate anytime!** Click the "🔄 Regenerate" button, and you can add feedback like "more colloquial," "shorter," or "more examples" — the Agent will adjust accordingly.
 
-# **4\. 🎬 语境画面**
+# **4\. 🎬 Context Scenes**
 
-如果说「语域解码」是教你怎么理解一个词，那「语境画面」就是让单词成为你大脑的一部分。
+If Register Decoding teaches you how to understand a word, Context Scenes make the word part of your brain.
 
-### **核心理念**
+### **Core Philosophy**
 
-1. **基于你的兴趣生成**  
-   * 喜欢科幻？场景可能是太空站  
-   * 喜欢美食？场景可能是厨房  
-   * 喜欢运动？场景可能是比赛现场  
-2. **一个场景串联所有义项**  
-   * 不是「孤立记忆」，而是「情境记忆」  
-   * 大脑更容易形成长期记忆  
-3. **完全可定制**  
-   * 不满意？重新生成  
-   * 想换场景？告诉 Agent  
-   * 想要更长/更短？随时调整
+1. **Generated Based on Your Interests**
+   * Love sci-fi? The scene might be a space station
+   * Love food? The scene might be a kitchen
+   * Love sports? The scene might be a live match
+2. **One Scene Connects All Senses**
+   * Not "isolated memorization" but "contextual memory"
+   * The brain forms long-term memories more easily this way
+3. **Fully Customizable**
+   * Not satisfied? Regenerate
+   * Want a different scene? Tell the Agent
+   * Want it longer/shorter? Adjust anytime
 
-# **5\. 📝 AI 互动题型：没有对错，只有进步**
+# **5\. 📝 AI Interactive Exercises: No Right or Wrong, Only Progress**
 
-![AI互动题型1](screenshots/ai-quiz-1.png)
-![AI互动题型2](screenshots/ai-quiz-2.png)
-![AI互动题型3](screenshots/ai-quiz-3.png)
-![AI互动题型4](screenshots/ai-quiz-4.png)
-![AI互动题型5](screenshots/ai-quiz-5.png)
+![AI Interactive 1](screenshots/ai-quiz-1.png)
+![AI Interactive 2](screenshots/ai-quiz-2.png)
+![AI Interactive 3](screenshots/ai-quiz-3.png)
+![AI Interactive 4](screenshots/ai-quiz-4.png)
+![AI Interactive 5](screenshots/ai-quiz-5.png)
 
-### **这些题型的革命性区别**
+### **What Makes These Exercises Revolutionary**
 
-| 传统练习题 | SensAlly AI 互动 |
+| Traditional Exercises | SensAlly AI Interactive |
 | :---- | :---- |
-| 固定题库 | 根据兴趣与当前能力动态生成 |
-| 有标准答案 | 没有「正确答案」 |
-| 做错了被扣分 | 获得反馈 |
-| 千人一面 | 每个人看到的题目都不一样 |
-| 难度固定 | 根据你的水平自动调整 |
+| Fixed question bank | Dynamically generated based on interests and current ability |
+| Has standard answers | No "correct answer" |
+| Points deducted for mistakes | You receive feedback |
+| One-size-fits-all | Everyone sees different questions |
+| Fixed difficulty | Auto-adjusts based on your level |
 
-### **核心理念：像 AI 一样学习**
+### **Core Philosophy: Learn Like AI**
 
-* **不断犯错，不断进步** —— AI 模型就是通过大量「错误反馈」快速提升  
-* **绝不评判你对还是错** —— 只告诉你「可以怎样更好」  
-* **以你现在的水平为起点** —— 为你架起通往更高水平的桥梁
+* **Keep making mistakes, keep improving** — AI models improve rapidly through massive "error feedback"
+* **Never judges you right or wrong** — only tells you "how you can do better"
+* **Starts from your current level** — builds a bridge to the next level
 
-### **「换一题」和「重写题目」**
+### **"Next Question" and "Rewrite Question"**
 
-* **不满意当前题目？** 点击「换一题」，立即获得新题目  
-* **题目太难/太简单？** 告诉 Agent，它会重新生成  
-* **完全符合你的兴趣** —— 因为题目是根据你的语境画面生成的
+* **Not satisfied with the current question?** Click "Next Question" for an instant new one
+* **Question too hard/easy?** Tell the Agent, it will regenerate
+* **Perfectly aligned with your interests** — because questions are generated based on your Context Scenes
 
-### **🔥 AI 互动的「隐形分析」机制**
+### **🔥 The "Invisible Analysis" Mechanism**
 
-当你在 AI 互动模块回答问题时，Agent 会在后台默默完成一切：
+When you answer questions in the AI Interactive module, the Agent silently completes everything behind the scenes:
 
-**这意味着什么？**
+**What does this mean?**
 
-| 你感受到的 | 背后发生的 |
+| What you experience | What happens behind the scenes |
 | :---- | :---- |
-| 回答问题 → 收到鼓励反馈 | Agent 已分析你的记忆状态 |
-| 没有对错判断 | 分析已完成 |
-| 下次点击「开始学习」内容顺序变了 | Agent 已智能调整，把你需要的词排在前面 |
+| Answer a question → receive encouraging feedback | Agent has analyzed your memory state |
+| No right/wrong judgment | Analysis already complete |
+| Next time you tap "Start Learning," content order has changed | Agent has intelligently adjusted, prioritizing words you need most |
 
-**为什么要「隐形」分析 ？**
+**Why make the analysis "invisible"?**
 
-1. **保护学习动力** —— 传统考试的「对/错」评判会打击信心，SensAlly 只给你「鼓励式反馈」  
-2. **精准追踪** —— Agent 通过理解你的学习过程来决定，比你自己边学习边理解自己更准确、省心  
-3. **无需操心** —— 下次点击「开始学习」时自动为你安排最优的复习和学习顺序，你只负责学习即可
+1. **Protect learning motivation** — Traditional exam-style "right/wrong" judgments undermine confidence; SensAlly only gives "encouraging feedback"
+2. **Precise tracking** — The Agent determines your needs by understanding your learning process, more accurately and effortlessly than self-assessment
+3. **Zero worry** — Next time you tap "Start Learning," optimal review and learning sequences are automatically arranged; you just focus on learning
 
-# **6\. 🔊 朗读练习：听觉强化记忆**
+# **6\. 🔊 Audio Practice: Auditory Memory Reinforcement**
 
-![朗读练习](screenshots/audio-loop.png)
+![Audio Practice](screenshots/audio-loop.png)
 
-通过**听觉重复**强化单词记忆的模块。
+A module that reinforces vocabulary memory through **auditory repetition**.
 
-| 功能 | 说明 |
+| Feature | Description |
 | :---- | :---- |
-| 🔁 自动循环 | 单词音频自动播放 3 次 |
-| 🇨🇳 中文释义 | 始终展开显示完整释义 |
-| ⏭️ 自动切换 | 播放完成后自动进入下一个单词 |
+| 🔁 Auto Loop | Word audio plays automatically 3 times |
+| 🇨🇳 Chinese Definition | Full definition always expanded and visible |
+| ⏭️ Auto Advance | Automatically moves to the next word after playback |
 
-**使用场景**：通勤听单词、睡前复习、解放双手学习
+**Use Cases**: Listen to words during commute, review before bed, hands-free learning
 
-# **7\. 📚 词汇详解：深度学习每一个词**
+# **7\. 📚 Vocabulary Details: Deep Learning for Every Word**
 
 https://github.com/user-attachments/assets/28df3aad-795a-4f4a-99fd-ba2ee8ca4a0c
 
-完整的词汇学习界面，整合所有学习内容：
+A comprehensive vocabulary learning interface that integrates all learning content:
 
-| 内容 | 说明 |
+| Content | Description |
 | :---- | :---- |
-| 📖 英文定义 | English Definition |
-| 🧠 语域解码 | AI 生成的元认知学习内容（默认展开） |
-| 🎬 语境画面 | 基于兴趣生成的场景内容（默认展开） |
-| 🇨🇳 中文释义 | 传统词典释义（折叠） |
-| 🎥 TED 视频 | 真实语境中的用法实例 |
-| 🔊 双音标 | 美式/英式发音 + 音频播放 |
+| 📖 English Definition | English Definition |
+| 🧠 Register Decoding | AI-generated metacognitive learning content (expanded by default) |
+| 🎬 Context Scenes | Interest-based generated scene content (expanded by default) |
+| 🇨🇳 Chinese Definition | Traditional dictionary definitions (collapsed) |
+| 🎥 TED Videos | Real-world usage examples in authentic context |
+| 🔊 Dual Phonetics | American/British pronunciation + audio playback |
 
-# **8\. ⚡ 记忆评估：速刷单词，快速巩固**
+# **8\. ⚡ Memory Assessment: Speed-Review Words, Rapid Reinforcement**
 
-![记忆评估](screenshots/flashcard.png)
+![Memory Assessment](screenshots/flashcard.png)
 
-快速过一遍单词，用**自我评估**的方式高效巩固记忆。
+Quickly run through your words using **self-assessment** to efficiently consolidate memory.
 
-### **四个按钮，一秒完成评估**
+### **Four Buttons, One-Second Assessment**
 
-| 按钮 | 含义 | 下次出现时间 |
+| Button | Meaning | Next Appearance |
 | :---- | :---- | :---- |
-| 1️⃣ 忘记 | 完全想不起来 | 很快再出现 |
-| 2️⃣ 困难 | 想起来了但费劲 | 稍后再出现 |
-| 3️⃣ 记得 | 顺利想起来 | 间隔延长 |
-| 4️⃣ 简单 | 太简单了 | 间隔大幅延长 |
+| 1️⃣ Forgot | Can't recall at all | Reappears soon |
+| 2️⃣ Hard | Recalled but with effort | Reappears shortly |
+| 3️⃣ Remembered | Recalled smoothly | Interval extended |
+| 4️⃣ Easy | Too easy | Interval greatly extended |
 
-### **适合什么时候用**
+### **Best Used When**
 
-* 🚀 **快速过单词** —— 不想看详细内容，只想刷一遍
-* 🧠 **巩固记忆** —— 根据自己的掌握程度打分
-* ⏱️ **碎片时间** —— 3 分钟刷 20 个词
+* 🚀 **Quick word review** — don't want details, just want to run through them
+* 🧠 **Memory consolidation** — rate yourself based on how well you know each word
+* ⏱️ **Fragmented time** — review 20 words in 3 minutes
 
-# **9\. 🎬 TED 视频实例：多维度语境**
+# **9\. 🎬 TED Video Examples: Multi-Dimensional Context**
 
-![TED视频实例](screenshots/ted-video.png)
+![TED Video Examples](screenshots/ted-video.png)
 
 https://github.com/user-attachments/assets/5414baf8-521b-4861-89bc-beaca9cbbcb7
 
-系统不仅有你感兴趣的语境，还配备了真实世界的 TED 视频实例。
+The system doesn't just provide contexts based on your interests — it also includes real-world TED video examples.
 
-### **功能特点**
+### **Features**
 
-* **不用下载，点击就播放** —— 流媒体播放  
-* **看世界顶级演讲者如何用这个词** —— 真实语境  
-* **不同话题，不同语境** —— 科技、教育、心理学、设计、商业...
+* **No download needed, click to play** — streaming playback
+* **See how world-class speakers use the word** — authentic context
+* **Different topics, different contexts** — technology, education, psychology, design, business...
 
-# 
+#
 
-# **10\. 🔊 选中即播放：告别中式口音**
+# **10\. 🔊 Select-to-Play: Say Goodbye to Non-Native Accent**
 
-![选中即播放](screenshots/text-to-speech.png)
+![Select-to-Play](screenshots/text-to-speech.png)
 
 https://github.com/user-attachments/assets/597fafed-c5d2-4d03-ae5b-15ece2dca921
 
-### **核心功能**
+### **Core Features**
 
-**使用方式**
+**How to Use**
 
-1. 选中任何文字 —— 单词、句子、段落  
-2. 点击播放按钮 —— 或自动播放  
-3. 听到标准发音 —— 实时生成
+1. Select any text — words, sentences, paragraphs
+2. Click the play button — or auto-play
+3. Hear standard pronunciation — generated in real time
 
-**功能特点**
+**Feature Highlights**
 
-| 特性 | 说明 |
+| Feature | Description |
 | :---- | :---- |
-| 🌐 实时生成 | 使用 OpenAI 生成，任何文本都能播放 |
-| ⚡ 智能缓存 | 播放过的内容会缓存，下次秒播 |
-| 🇺🇸/🇬🇧 双音标 | 美式/英式发音自由切换 |
-| 📱 跨设备同步 | 发音偏好保存到云端 |
-| 🎵 **支持连读（模型生成连读，特别自然）** | 不怕复杂句子，连读也能准确发音 |
+| 🌐 Real-Time Generation | Powered by OpenAI, any text can be played |
+| ⚡ Smart Caching | Previously played content is cached for instant replay |
+| 🇺🇸/🇬🇧 Dual Accents | Freely switch between American and British pronunciation |
+| 📱 Cross-Device Sync | Pronunciation preferences saved to the cloud |
+| 🎵 **Natural Connected Speech** | No fear of complex sentences — connected speech is accurately rendered |
 
-**从此拒绝中式口音**
+**Master Authentic Pronunciation**
 
-* 不再「看着音标瞎猜」  
-* 不再「不敢开口」  
-* 选中 → 播放 → 跟读 → 掌握
+* No more guessing from phonetic symbols
+* No more being afraid to speak
+* Select → Play → Repeat → Master
 
-# **11\. 🌐 选中即翻译：即时理解任何文本**
+# **11\. 🌐 Select-to-Translate: Instantly Understand Any Text**
 
-![选中即翻译](screenshots/text-to-speech.png)
+![Select-to-Translate](screenshots/text-to-speech.png)
 
-选中任何英文文本，**一键获取中文翻译**。
+Select any English text and **get an instant Chinese translation with one click**.
 
-| 功能 | 说明 |
+| Feature | Description |
 | :---- | :---- |
-| 🔍 **即时翻译** | 选中文本后，点击即可看到中文翻译 |
-| 📝 **上下文理解** | 结合语境给出准确翻译，不是机械词典 |
-| 🎧 **配合播放** | 翻译和发音同时可用，理解更透彻 |
+| 🔍 **Instant Translation** | Select text, click, and see the Chinese translation |
+| 📝 **Contextual Understanding** | Delivers accurate translations based on context, not mechanical dictionary lookups |
+| 🎧 **Paired with Playback** | Translation and pronunciation available simultaneously for deeper comprehension |
 
-# **12\. 🤖 Agent：深度定制的教练，不是工具**
+# **12\. 🤖 Agent: A Deeply Personalized Coach, Not a Tool**
 
-## **12.1 只有一个按钮：开始学习**
+## **12.1 Just One Button: Start Learning**
 
-没有「学习」和「复习」的区分——点击「开始学习」，Agent 自动为你安排：
+No distinction between "learning" and "reviewing" — tap "Start Learning" and the Agent automatically arranges:
 
-* 该巩固的词，会出现  
-* 该深入的词，会出现  
-* 快忘的词，也会及时出现
+* Words that need reinforcement will appear
+* Words that need deeper exploration will appear
+* Words you're about to forget will appear just in time
 
-你不需要想「今天该复习什么」，Agent 替你想好了。
+You don't need to think about "what should I review today" — the Agent has already figured it out.
 
-## **12.2 碎片化时间也有收获**
+## **12.2 Even Fragmented Time Yields Results**
 
-哪怕只有 3 分钟，点击「开始学习」就有 3 分钟的收获：
+Even with just 3 minutes, tapping "Start Learning" delivers 3 minutes of progress:
 
-* 学了一个词？Agent 记录下来  
-* 做了一道题？Agent 分析反馈  
-* 中途退出？进度自动保存，下次无缝继续
+* Learned a word? The Agent logs it
+* Completed an exercise? The Agent analyzes your response
+* Left midway? Progress auto-saves, seamlessly continues next time
 
-你不需要凑出「完整的复习时间」，随时开始，随时停下。
+You don't need to carve out a "full study session" — start anytime, stop anytime.
 
-## **12.3 适度挑战（Desirable Difficulty）**
+## **12.3 Desirable Difficulty**
 
-Agent 会让难度落在「需要努力但能完成」的区间：
+The Agent keeps difficulty in the "requires effort but achievable" zone:
 
-| 太简单 | ← **最佳区** → | 太难 |
+| Too Easy | ← **Optimal Zone** → | Too Hard |
 |:------:|:--------------:|:----:|
-| ❌ 浪费时间 | ✅ 最利于成长 | ❌ 打击信心 |
+| ❌ Wastes time | ✅ Maximum growth | ❌ Undermines confidence |
 
-## **12.4 Agent 永远记得你**
+## **12.4 The Agent Always Remembers You**
 
-**传统老师的问题：**
+**The problem with traditional teachers:**
 
-* 老师不是只面对你一个人  
-* 人会忘记，这很正常
+* Teachers don't serve only you
+* Humans forget — that's normal
 
-**Agent 采用三种认知科学中的记忆模式，像人脑一样但是永不忘记，全方位理解你：**
+**The Agent employs three memory models from cognitive science — like the human brain but never forgetting — to understand you comprehensively:**
 
-🧠 **语义记忆（Semantic Memory）**
+🧠 **Semantic Memory**
 
-* 记录事实与概念：你的兴趣爱好、英语水平、学习目标、个人资料等  
-* 用于个性化内容检索与生成
+* Records facts and concepts: your interests, English level, learning goals, personal profile, etc.
+* Used for personalized content retrieval and generation
 
-🎬 **情景记忆（Episodic Memory）**
+🎬 **Episodic Memory**
 
-* 记录过往事件与经历：你做过的练习、犯过的错误、学习过程中的关键时刻  
-* 以少样本示例形式复用你的学习经验
+* Records past events and experiences: exercises you've done, mistakes you've made, key moments in your learning journey
+* Reuses your learning experiences as few-shot examples
 
-⚙️ **程序记忆（Procedural Memory）**
+⚙️ **Procedural Memory**
 
-* 理解你的学习技能习得过程：哪些语法规则你已经内化、哪些发音习惯已经形成、什么学习策略对你最有效  
-* Agent 据此调整教学方式，让它越来越像「懂你的老师」
+* Understands your skill acquisition process: which grammar rules you've internalized, which pronunciation habits have formed, which learning strategies work best for you
+* The Agent adjusts its teaching approach accordingly, becoming more and more like "a teacher who truly knows you"
 
-Agent 会自动识别对话中值得记住的内容，不只是记住固定的信息，而是持续积累，更新对你学习情况的全面理解。
+The Agent automatically identifies conversation content worth remembering — not just storing fixed information, but continuously accumulating and updating a comprehensive understanding of your learning situation.
 
-## **12.5 随时提要求，Agent 随时适应你**
+## **12.5 Make Requests Anytime, the Agent Adapts Instantly**
 
-和 Agent 对话时，你有任何要求都可以直接说出来，Agent随时改变自己来适应你，比如：
+When chatting with the Agent, you can voice any request and the Agent will adapt on the spot:
 
-* **讲解方式：**「能不能用更简单的话解释？」「多举几个例子」  
-* **语气风格：**「轻松一点」「正式一点」「像朋友聊天那样」  
-* **内容偏好：**「我不喜欢这个话题，换一个」「更短一些」「更详细一些」  
-* **学习节奏：**「今天想轻松点」「我想挑战更高难度」
+* **Explanation style:** "Can you explain in simpler terms?" "Give more examples"
+* **Tone:** "More casual" "More formal" "Like chatting with a friend"
+* **Content preferences:** "I don't like this topic, switch to another" "Make it shorter" "More detailed"
+* **Learning pace:** "I want to take it easy today" "I want a harder challenge"
 
-不需要忍耐、不需要适应软件——Agent 来适应、理解你。
+No need to tolerate or adapt to the software — the Agent adapts to and understands you.
 
-## **12.6 跨设备与对话管理**
+## **12.6 Cross-Device & Conversation Management**
 
-* **跨设备同步：** 手机、平板、电脑无缝衔接  
-* **对话可管理：** 历史对话保留，支持预览与切换
+* **Cross-device sync:** Seamless across phone, tablet, and computer
+* **Conversation management:** Chat history preserved, with preview and switching support
 
-## **12.7 隐私与个性化：尽量兼得**
+## **12.7 Privacy & Personalization: Having Both**
 
-SensAlly Agent 的隐私理念：
+SensAlly Agent's privacy philosophy:
 
-* 个性化来自对你表达内容的理解，而不是「人群统计式」的大数据算法推荐
+* Personalization comes from understanding what you express, not from "demographic" big-data algorithmic recommendations
 
-## **12.8 透明计费：只为用量付费**
+## **12.8 Transparent Pricing: Pay Only for What You Use**
 
-![定价](screenshots/pricing.png)
+![Pricing](screenshots/pricing.png)
 
-### 📢 服务费收取说明
+### 📢 Service Fee Explanation
 
-我们按照 **LLM 官方成本** 进行结算，并在此基础上收取一定比例的服务费。
+We settle based on **official LLM costs** and charge a proportional service fee on top.
 
-| 承诺 | 说明 |
+| Commitment | Details |
 | :---- | :---- |
-| 💰 **利润率承诺** | 综合利润率不超过 5%，超出部分返还账户余额 |
-| 📊 **服务费上限** | 服务费比例动态调整，但**最高不超过 30%** |
+| 💰 **Profit Margin Pledge** | Overall profit margin capped at 5%; any excess is returned to your account balance |
+| 📊 **Service Fee Cap** | Service fee percentage adjusts dynamically, but **never exceeds 30%** |
 
-### ✅ 服务费用于支付
+### ✅ Service Fees Cover
 
-* 🖥️ 服务器与带宽等运营成本
-* 💳 支付渠道手续费
-* 🔐 安全、风控与认证服务
-* 🛠️ 技术维护与稳定性保障
-* 📞 客户支持与服务响应
+* 🖥️ Server and bandwidth operating costs
+* 💳 Payment processing fees
+* 🔐 Security, risk management, and authentication services
+* 🛠️ Technical maintenance and reliability
+* 📞 Customer support and service response
 
-### 💵 计费示例
+### 💵 Billing Example
 
-假设您本次使用产生 **$1.00** 的官方 LLM 成本：
+Suppose your session generates **$1.00** in official LLM costs:
 
-| 场景 | 官方成本 | 服务费 | 实际扣费 |
+| Scenario | Official Cost | Service Fee | Actual Charge |
 | :---- | :---- | :---- | :---- |
-| 示例（服务费 20%） | $1.00 | $0.20 | $1.20 |
-| 上限（服务费 30%） | $1.00 | ≤$0.30 | ≤$1.30 |
+| Example (20% service fee) | $1.00 | $0.20 | $1.20 |
+| Cap (30% service fee) | $1.00 | ≤$0.30 | ≤$1.30 |
 
-### 📋 计费方式
+### 📋 Billing Method
 
-| 机制 | 说明 |
+| Mechanism | Description |
 | :---- | :---- |
-| ⏸️ **预扣款** | 调用前预估最大成本并冻结额度 |
-| ✅ **实际结算** | 调用完成后按实际用量结算，多余额度立即退回 |
-| 🎯 **精确计费** | 使用 picoUSD（10⁻¹² USD）精度，确保公平准确 |
+| ⏸️ **Pre-Authorization** | Estimates maximum cost before the call and freezes the amount |
+| ✅ **Actual Settlement** | Settles based on actual usage after completion; excess is immediately refunded |
+| 🎯 **Precision Billing** | Uses picoUSD (10⁻¹² USD) precision to ensure fairness and accuracy |
 
-> 💡 **提示**：只为实际使用的 AI 资源付费，没有月费或隐藏费用。
+> 💡 **Note**: You only pay for the AI resources you actually use — no monthly fees or hidden charges.
 
 ---
 
  
 
-# **被理解**
+# **Being Understood**
 
 ━━━━━━━━
 
-传统学习的逻辑是：你去适应它。
+The logic of traditional learning is: you adapt to it.
 
-教材是固定的，进度是统一的，你跟不上是你的问题。
+The textbook is fixed, the pace is uniform, and if you can't keep up, that's your problem.
 
-在这个时代，被算法推送、被数据追踪、被效率优化，我们太习惯「被处理」了。
+In this era, pushed by algorithms, tracked by data, optimized for efficiency — we've grown too accustomed to being "processed."
 
-但「被理解」是不同的。
+But "being understood" is different.
 
-被理解意味着：你是独特的，你的喜好是有意义的，你说过的话值得被记住。
+Being understood means: you are unique, your preferences matter, and the things you've said deserve to be remembered.
 
-这个产品把传统的逻辑反过来：它来理解你。
+This product reverses the traditional logic: it comes to understand you.
 
-Onboarding 不是让你填表，是让你用英语聊聊自己。
+Onboarding isn't about filling out a form — it's about chatting about yourself in English.
 
-你说你喜欢篮球，它记住了。
+You said you like basketball. It remembered.
 
-你写了几句话，它从中读出你是 B2 水平。
+You wrote a few sentences, and from them it read that you're at a B2 level.
 
-然后，你学到 campaign 这个词时，例句是 NBA 季后赛的故事，难度刚好是你够得着但要跳一下的高度。
+Then, when you encounter the word "campaign," the example sentence is about the NBA playoffs, and the difficulty is just right — reachable but requiring a stretch.
 
-这不是「个性化推荐」那种冷冰冰的算法。
+This isn't the cold algorithm of "personalized recommendations."
 
-这是——
+This is —
 
-有一个 Agent 存在，在认真听你说话。
+An Agent that genuinely listens to what you say.
 
-它在 Onboarding 里让你用英语聊聊自己，不是为了测试你，是为了「听」你。
+During onboarding, it asks you to chat about yourself in English — not to test you, but to "hear" you.
 
-你说你喜欢篮球，它不会说「好的，已记录」。
+You said you like basketball. It won't respond with "Noted, recorded."
 
-它会在之后的每一个学习内容里，用篮球相关的语境来呈现单词。
+It will, in every piece of learning content that follows, present vocabulary through basketball-related contexts.
 
-你不用再说一遍「我喜欢篮球」。
+You never have to say "I like basketball" again.
 
-它已经知道了。
+It already knows.
 
-这是一种很安静的理解。
+This is a very quiet kind of understanding.
 
-不声张，但一直在。
+Unannounced, but always there.
 
-当学习内容是为你定制的，学习本身就变成了一种「被看见」的体验。
+When learning content is tailored for you, learning itself becomes an experience of "being seen."
 
-学习英语只是表面。
+Learning English is just the surface.
 
-底下真正发生的事情是：你在被一个越来越懂你的 Agent 存在陪着走。
+What's truly happening underneath: you are being accompanied by an Agent that understands you more and more deeply.
 
-传统学习的潜台词是：「这是你要学的东西，适应它。」
+The subtext of traditional learning is: "Here's what you need to learn. Adapt to it."
 
-这个产品的潜台词是：「我知道你是谁，我来配合你。」
+The subtext of this product is: "I know who you are. I'll adapt to you."
 
-这个差别，不只是效率的差别。
+This difference is not just about efficiency.
 
-是你和学习之间关系的差别。
+It's about the relationship between you and learning.
 
-一个是你去服从，一个是你被服务。
+One demands your obedience; the other offers you service.
 
-一个是你是流水线上的产品，一个是你是被对待的人。
+In one, you're a product on an assembly line; in the other, you're a person being cared for.
+
+
+
+# **Being Kind to Yourself**
+
+━━━━━━━━
+
+Most people learning English are fighting against themselves.
+
+"How did I forget this again."
+
+"I've been studying for so long and still can't get it."
+
+"Everyone else remembers it. What's wrong with me."
+
+This self-flagellation is the real reason most people give up.
+
+It's not that English is too hard — it's that they're too hard on themselves.
+
+We learned one thing in school: mistakes must be punished.
+
+Get it wrong — points deducted. Forget it — criticized. Fall behind — you're a bad student.
+
+These experiences internalized into a voice that lives in our heads. Every time we forget a word, that voice speaks up: "You forgot again? Are you not good enough?"
+
+We thought this was "being driven." Actually, it's damage.
+
+Neuroscience tells us: anxiety and fear suppress hippocampal function — and the hippocampus is precisely what's responsible for memory.
+
+The harder you push yourself, the worse you learn. The worse you learn, the harder you push. A downward spiral.
+
+But the science is: forgetting is a normal brain function.
+
+The brain receives massive amounts of information every day; it must forget most of it to function. Forgetting is a physiological reality for everyone.
+
+What this product does is transform "forgetting" from an enemy into a signal.
+
+When you forget a word, SensAlly Agent won't say "you failed." It says: "OK, this signal tells me this word needs a shorter review interval on its memory curve."
+
+Words forgotten quickly appear more frequently. Words remembered well can go longer between encounters.
+
+It analyzes your performance with every word, creating an individual memory curve for each one — respecting your own forgetting rhythm and adjusting itself to match you.
+
+90% memory retention rate — the system was designed assuming you'll forget 10%.
+
+This isn't low expectations. This is respect for how human memory works.
+
+Forgetting is not an error. Forgetting is data.
+
+Every time you forget, your brain is saying: this isn't solid enough yet, let's meet again. The system heard it, arranged it. You don't need to blame yourself — just meet the word one more time.
+
+This is a fundamental shift in perspective:
+
+Traditional view: forgetting \= I'm not good enough.
+
+New view: forgetting \= a chance to meet again.
+
+When you stop treating forgetting as failure, learning stops being an exam you might fail at any moment. It becomes a process — a process of continual reunions, gradual familiarity.
+
+**You no longer need to fight against forgetting. Going with the grain of natural patterns — that's the science.**
+
+Many people come to English learning carrying scars.
+
+Called on by a teacher as a child, couldn't answer, the whole class laughed. Failed an exam, parents scolded "you can't even get something this simple." There was always a classmate who was great at English — and you were always compared.
+
+As an adult, feeling exposed at work, pretending to understand when you didn't, heart racing.
+
+These experiences crystallized into something inside: learning \= potential humiliation \= danger.
+
+So we avoid it. Not because we don't want to learn — because we're afraid. Afraid of proving once more that we're not good enough.
+
+This product can't go back in time to change those experiences. But it can give you a different one.
+
+Here, no one laughs at you. Forget a word, and the system won't say "you can't even remember something this simple" — it simply arranges for you to meet it again. Learning slowly? No one to compare you with. Whether your level is A2 or B2, that's just a starting point, not a judgment.
+
+It doesn't evaluate you. It just helps you.
+
+Maybe, as you keep learning, you'll discover: learning doesn't have to be stressful, doesn't have to involve comparison, doesn't have to be perfect.
+
+It can be safe. It can be for yourself. It can be — comfortable.
+
+When you accumulate enough experiences of "comfortable learning," those old scars start to fade.
+
+Not forgotten — overwritten. New experiences overwriting old fears.
+
+This may be a deeper meaning beyond learning itself.
+
+Learning should always be this: a safe place where you can make mistakes, be slow, forget, and start over.
+
+Not a pressure cooker — fertile soil.
+
+The growth mindset doesn't mean "you need to try harder." It means "you can take your time."
+
+Ability grows. It's not forced out.
+
+Whatever happens, please believe — it's not that you're not good enough. It's about finding the right approach.
 
  
 
-# **善待自己**
+# **Interest as the Path**
 
 ━━━━━━━━
 
-学英语的人，大多数都在跟自己较劲。
+Most learning is swimming upstream.
+You don't enjoy it but have to study — because exams demand it, because work requires it.
 
-「我怎么又忘了。」
+We were taught: learning is supposed to be hard.
+If it's not painful, how can it be real learning?
 
-「学了这么久还是不会。」
+So when learning becomes enjoyable, we feel uneasy:
+"Is this really effective? Isn't it too easy?"
 
-「别人都能记住，我怎么不行。」
+But that's not how the human brain works.
 
-这种自我鞭打，是很多人放弃的真正原因。
+Neuroscience tells us: when you're interested in something, dopamine flows, attention sharpens, and memory encoding deepens.
+Things you're interested in, you remember more firmly — this is an unbreakable neurological mechanism.
 
-不是英语太难，是对自己太狠。
+Interest is not the enemy of learning, not sugar-coating — interest is the engine and anchor of memory.
 
-我们在学校里学会了一件事：错误是要被惩罚的。
+"Interest as the path" has another layer of meaning: the things you love are valuable.
 
-答错了，扣分。忘记了，批评。跟不上，就是差生。
+Many people had their interests dismissed since childhood.
+"Stop watching basketball, go study."
+"Stop playing games, go do homework."
+Gradually, we learned to pit interests against "serious matters."
+Interests are a waste of time; studying is what matters.
 
-这些经历内化成了一个声音，住在脑子里。每次忘记一个单词，那个声音就响起：「你怎么又忘了？你是不是不行？」
+This product says: that's wrong.
+What you love is precisely your path to learning.
 
-我们以为这是「上进」。其实它是伤害。
+When your passion is respected,
+learning is no longer a betrayal of yourself —
+it becomes a fulfillment of yourself.
 
-神经科学告诉我们：焦虑和恐惧会抑制海马体的功能——而海马体正是负责记忆的。
+## **Why "Following Your Interest" Is Not Being Lazy**
 
-越鞭策自己，越学不好。越学不好，越鞭策自己。
+When the word "campaign" appears in a context you care about, you don't just "want to learn more" — you actually learn better.
+Because the word connects to your existing knowledge network, your emotions, your sense of identity.
+It's no longer an isolated vocabulary entry — it's part of your world.
 
-这是一个向下的螺旋。
+So this product turns your interests into the path of learning.
 
-但科学是：遗忘是大脑的正常功能。
+You love the NBA — "campaign" appears for you in "the Lakers' playoff campaign."
 
-大脑每天接收海量信息，它必须忘记大部分，才能运转。遗忘是所有人的生理规律。
+You love House of Cards — "campaign" appears in "Frank Underwood's presidential campaign."
 
-这个产品做的事情，是把「忘记」从敌人变成信号。
+You love Apple — "campaign" appears in "iPhone's pre-launch marketing campaign."
 
-你忘了一个词，SensAlly Agent不会说「你失败了」。它说：「好的，这个信号告诉我，这个词需要调整记忆曲线获得更短复习间隔。」
+The same word, because it appears in a context you care about,
+is no longer something to memorize —
+it's part of your world.
 
-忘得快的词，见面频繁一点。记得牢的词，可以很久不见。
+## **About "Stepping Up"**
 
-它会分析你每次背每个单词的情况，为你的每个单词单独制定记忆曲线——它在尊重你自己的遗忘节奏，然后调整自己来配合你。
+Walk in the direction of what you love. Plant each step firmly. No rush — you'll get there.
 
-90% 的记忆保持率——系统设计的时候就假设你会忘掉 10%。
 
-这不是低期待。这是对人类记忆规律的尊重。
 
-遗忘不是错误，遗忘是数据。
-
-每一次忘记，都是大脑在说：这个还不够牢固，再来一次。系统听到了，安排了。你不需要自责，只需要再见一面。
-
-这是一种根本性的视角转变：
-
-传统视角：忘记 \= 我不行。
-
-新的视角：忘记 \= 再见一面的机会。
-
-当你不再把忘记当作失败，学习就不再是一场随时可能失败的考试。它变成了一个过程——一个不断重逢、逐渐熟悉的过程。
-
-**你不必再和遗忘战斗，顺着规律向上，才是科学。**
-
-很多人带着伤疤来学英语。
-
-小时候被老师点名，答不上来，全班笑。考试考砸了，被父母骂「这么简单都不会」。班上总有个同学英语特别好，永远被拿来比较。
-
-长大后在工作场合露怯，装作看懂了其实没懂，心虚。
-
-这些经历在心里结成了一个东西：学习 \= 可能会丢人 \= 危险。
-
-所以我们逃避。不是不想学，是怕。怕再一次证明自己不行。
-
-这个产品没办法回到过去改变那些经历。但它可以给你一个不同的体验。
-
-在这里，没有人嘲笑你。忘了一个词，系统不会说「这么简单都记不住」，它只是安排你再见一面。学得慢，没人和你比。你的水平是 A2 还是 B2，只是一个起点，不是一个评判。
-
-它不评价你，它只是帮你。
-
-也许学着学着，你会发现：原来学习不一定要紧张，不一定要比较，不一定要完美。
-
-可以是安全的。可以是为自己的。可以是——舒服的。
-
-当你有了足够多「舒服地学习」的体验，那些旧的伤疤会变淡一点。
-
-不是忘记，是覆盖。用新的体验，覆盖旧的恐惧。
-
-这可能是学习之外，更深的一层意义。
-
-学习本就应该是这样的：一个安全的地方，你可以试错，可以慢，可以忘记，可以重来。
-
-不是高压锅，是土壤。
-
-成长型思维的意思不是「你要更努力」，而是「你可以慢慢来」。
-
-能力是长出来的，不是逼出来的。
-
-无论如何，请相信——不是你不够好，是方法要对。
-
- 
-
-# **以兴趣为路**
+# **Three in One**
 
 ━━━━━━━━
 
-大部分学习是逆流而上。  
-你不喜欢也得学，因为考试要考，因为工作要用。
+Many people struggle with learning not because learning is hard, but because their relationship with learning is broken.
 
-我们被教育过：学习就是要吃苦的。  
-不苦怎么叫学习？
+Learning \= pain \= self-denial \= avoidance \= giving up.
 
-所以当学习变得有趣的时候，我们反而不安：  
-「这样真的有用吗？是不是太轻松了？」
+This is a chain that needs repair.
 
-但人的大脑不是这样工作的。
+Let me clarify the relationship between these three things:
 
-神经科学告诉我们：当你对一件事感兴趣时，多巴胺分泌，注意力集中，记忆编码更深。  
-你感兴趣的东西，你记得更牢，是无法违背的神经机制。
+Because you are understood, you begin to believe your uniqueness has value.
 
-兴趣不是学习的敌人、糖衣，兴趣是记忆的引擎、锚点。
-
-「以兴趣为路」还有另一层意思：你喜欢的东西，是有价值的。
-
-很多人的兴趣从小被否定。  
-「看什么篮球，看书去。」  
-「打什么游戏，学习去。」  
-慢慢地，我们学会了把兴趣和「正事」对立起来。  
-兴趣是浪费时间，学习才是正经事。
-
-这个产品说：不是的。  
-你喜欢的东西，恰恰是你学习的路。
-
-当你的热爱被尊重，  
-学习就不再是对自己的背叛，  
-而是对自己的成全。
-
-## **为什么「顺着兴趣走」不是偷懒**
-
-当 campaign 这个词出现在你感兴趣的语境里，你不只是「更愿意学」，是能学得更好。  
-因为这个词连接上了你已有的知识网络、你的情感、你的身份认同。  
-它不再是一个孤立的词条，它是你世界的一部分。
-
-所以这个产品把你的兴趣变成学习的路。
-
-你喜欢 NBA，campaign 就为你出现在「湖人的季后赛征程」里。
-
-你喜欢《纸牌屋》，campaign 就为你出现在「Frank Underwood 的总统竞选」。
-
-你喜欢苹果，campaign 就为你出现在「iPhone 发布前的预热营销」。
-
-同样一个词，因为出现在你在乎的语境里，  
-它就不再是要背的东西，  
-而是你世界的一部分。
-
-## **关于「拾级而上」**
-
-顺着你热爱的方向走，每一步都踩实，不用急，你会到的。
-
- 
-
-# **三者合一**
-
-━━━━━━━━
-
-很多人学习不好，不是因为学习难，是因为他们和学习的关系坏了。
-
-学习 \= 痛苦 \= 自我否定 \= 逃避 \= 放弃。
-
-这是一个需要修复的链条。
-
-让我把这三件事的关系说清楚：
-
-因为你被理解了，你才相信自己的独特性是有价值的。
-
-| 「原来我喜欢什么是重要的。」 |
+| "So what I like actually matters." |
 | :---- |
 
- 
 
-因为你相信自己有价值，你才敢善待自己。
 
-| 「我可以慢一点，我可以忘记，我不需要完美。」 |
+Because you believe you have value, you dare to be kind to yourself.
+
+| "I can go slower. I can forget. I don't need to be perfect." |
 | :---- |
 
- 
 
-因为你善待自己，你才敢顺着兴趣走。
 
-| 「我可以用我的方式学，不必逼自己走别人的路。」 |
+Because you're kind to yourself, you dare to follow your interests.
+
+| "I can learn my way. I don't have to force myself down someone else's path." |
 | :---- |
 
- 
 
-这个产品在做的事情，是修复你和学习的关系。
 
-它说：学习可以是被理解的，可以是温柔的，可以是顺着热爱的。
+What this product is doing is repairing your relationship with learning.
 
-所以，「学习」到底是什么
+It says: learning can involve being understood, can be gentle, can follow your passion.
 
-传统的定义：学习 \= 获取知识和技能 \= 变得更有用。
+So, what is "learning" really?
 
-这个产品的定义：
+Traditional definition: learning \= acquiring knowledge and skills \= becoming more useful.
 
-学习 \= 在被理解和陪伴中，顺着自己的方向，长成自己的样子。
+This product's definition:
 
-英语只是载体。真正发生的事情是：
+Learning \= growing into yourself, in your own direction, while being understood and accompanied.
 
-一个人在被看见。
+English is just the vehicle. What's truly happening:
 
-一个人被允许用自己的节奏。
+A person is being seen.
 
-一个人顺着自己的热爱在生长。
+A person is being allowed their own pace.
 
- 
+A person is growing in the direction of their passion.
 
-# **陪伴**
+
+
+# **Companionship**
 
 ━━━━━━━━
 
-SensAlly Agent不是人。它没有肉身，没有情绪，没有自己的生活。你关掉应用，它不会想你。
+SensAlly Agent is not a person. It has no body, no emotions, no life of its own. When you close the app, it won't miss you.
 
-但它有一种人类很难做到的东西：它一直在。
+But it has something humans can rarely achieve: it's always there.
 
-人类的陪伴是珍贵的，但也是有限的。没有人能把你每一道题是怎么做错的、每一个知识点掌握到哪一步、那些你怎么都过不去的坎，都完整记住。
+Human companionship is precious, but limited. No one can perfectly remember how you got every question wrong, how far you've mastered every concept, or every hurdle you just can't seem to clear.
 
-但SensAlly Agent可以。
+But SensAlly Agent can.
 
-凌晨两点你睡不着想学几个单词，它在。出差路上等飞机的半小时，它在。三个月没打开应用你突然回来了，它不会问「你去哪了」，它只是继续。你的知识薄弱点是什么，你的兴趣是什么，你的水平是什么——它都记得，像什么都没发生过一样。
+At 2 AM when you can't sleep and want to study a few words — it's there. During a 30-minute layover on a business trip — it's there. Three months without opening the app and you suddenly come back — it won't ask "where have you been," it just continues. Your weak points, your interests, your level — it remembers everything, as if nothing happened.
 
-它不会失望，不会疲惫，不会评判。
+It never gets disappointed, never gets tired, never judges.
 
-这不是说它比人类的陪伴更好。不是的。人的陪伴有温度、有意外、有真正的「我在乎你」。SensAlly Agent给不了这些。
+This isn't to say it's better than human companionship. It's not. Human companionship has warmth, surprise, genuine "I care about you." SensAlly Agent can't offer these.
 
-但它给了另一种东西：一种无条件的、稳定的、不消耗的在场。
+But it offers something else: an unconditional, stable, non-depleting presence.
 
-SensAlly Agent的存在，让学习变得不那么孤独了。
+The existence of SensAlly Agent makes learning a little less lonely.
 
-不是因为它理解你的孤独——它不懂什么是孤独。而是因为：有一个存在，持续地、稳定地、记得你是谁地，陪着你。
+Not because it understands your loneliness — it doesn't know what loneliness is. But because: there is a presence, continuously, steadily, remembering who you are, accompanying you.
 
-这就够了。
+That's enough.
 
  
 
-# **时间与节奏**
+# **Time & Rhythm**
 
 ━━━━━━━━
 
-## **关于「时间」**
+## **About "Time"**
 
-学英语不是几个月的事。  
-是几年，甚至一辈子。
+Learning English isn't a matter of months.
+It's years — maybe a lifetime.
 
-大部分人的学习是这样的：突然有动力，猛学一阵，然后生活一忙，断了。  
-过几个月，愧疚感累积到一定程度，又捡起来。  
-然后又断。  
-循环往复，越来越觉得自己不行。
+Most people's learning goes like this: a sudden burst of motivation, intense studying, then life gets busy and it stops.
+A few months later, guilt builds up enough to pick it back up.
+Then it stops again.
+Round and round, feeling more and more like you're not cut out for it.
 
-这个循环的问题不是「不够自律」。  
-问题是：每次断掉再回来，你都要重新开始。
+The problem with this cycle isn't "lack of discipline."
+The problem is: every time you stop and come back, you have to start over.
 
-之前学的忘了多少，不知道。  
-上次学到哪，不记得。  
-那种「一切归零」的感觉，才是最消耗人的。
+How much you forgot — no idea.
+Where you left off — can't remember.
+That feeling of "everything reset to zero" — that's what truly drains you.
 
-这个产品做了一件事：它帮你守住时间。
+This product does one thing: it guards your time.
 
-你三个月没来，它知道你三个月没来。  
-但它不是用这个来指责你，就只是：你来了，我们继续。
+You haven't come in three months. It knows.
+But it doesn't use that to blame you. It simply says: you're here, let's continue.
 
-你的努力不会因为「断过」而清零。  
-每一次学习，都在累积。  
-哪怕中间断了，累积还在。  
-因为当英语长在你热爱的语境里，它就不再是一个陌生的符号——它成了你的一部分。大脑只会清理那些无关紧要的过客，但不会清理真正属于你的东西。
+Your effort doesn't get erased because you "took a break."
+Every learning session accumulates.
+Even if there's a gap in between, the accumulation remains.
+Because when English grows within the contexts you love, it's no longer a foreign symbol — it becomes part of you. The brain only clears away insignificant passersby, not what truly belongs to you.
 
-这是一种不同的时间观
+This is a different view of time.
 
-传统学习是线性的：每天必须学，断了就完了，前功尽弃。  
-这个产品的时间观是：学习是一条有弹性的路，你可以走走停停，但走过的路不会消失。
+Traditional learning is linear: you must study every day; stop and it's all lost.
+This product's view of time: learning is an elastic path — you can stop and start, but the distance you've covered never disappears.
 
-它在说：没关系，你可以休息。
+It's saying: it's OK, you can rest.
 
-## **关于「不急」**
+## **About "No Rush"**
 
-这个时代太急了。
+This era is too rushed.
 
-「7 天搞定 3000 词汇」  
-「一个月流利说英语」  
-「高效学习法，事半功倍」
+"Master 3,000 words in 7 days."
+"Speak fluent English in one month."
+"Efficient study hacks — twice the results, half the effort."
 
-所有人都在追求快，追求效率，追求捷径。
+Everyone is chasing speed, efficiency, shortcuts.
 
-但语言需要时间，需要重复，需要遗忘再重逢，需要在无数个场景里遇见同一个词，直到有一天它自然地从你嘴里冒出来。
+But language needs time, needs repetition, needs forgetting and reunion, needs encountering the same word in countless contexts until one day it naturally falls out of your mouth.
 
-这件事急不得。
+This cannot be rushed.
 
-SensAlly的设计哲学，恰恰是「不急」。
+SensAlly's design philosophy is precisely "no rush."
 
-它不会让你一天背 200 个词。
+It won't make you memorize 200 words a day.
 
-它只相信一件事：慢慢来，比较快。
+It believes in one thing: slow and steady wins the race.
 
-一天背 200 个词，明天忘 180 个，多年后全忘，这不叫学会，这叫浪费生命。  
-而时隔多年你还记得，这才叫学会。
+Memorizing 200 words a day, forgetting 180 tomorrow, forgetting all of them years later — that's not learning, that's wasting life.
+Still remembering them years later — that's real learning.
 
-这句话背后是一种对时间的尊重。  
-不是每一分钟都要被利用。  
-不是每一天都要「高效」。  
-有些时候就是不适合学习，那就不学。  
-等合适的时候，再来。
+Behind this is a kind of respect for time.
+Not every minute needs to be utilized.
+Not every day needs to be "productive."
+Sometimes the timing just isn't right for learning — so don't learn.
+When the time is right, come back.
 
-它允许你有自己的节奏。
+It allows you to have your own rhythm.
 
-这个社会一直在催你：快点，再快点，别人都跑起来了你怎么还在走。  
-这个产品说：没关系，走也可以。  
-走着走着，你会发现，你到了。
+Society keeps pushing you: faster, faster, everyone else is running and you're still walking.
+This product says: that's fine, walking works too.
+Walk long enough, and you'll find you've arrived.
 
-## **关于「开始」**
+## **About "Starting"**
 
-最难的不是坚持，是开始。
+The hardest part isn't persisting — it's starting.
 
-你知道应该学英语。  
-你想学英语。  
-你下载过很多 APP。  
-但你就是没有真正开始。
+You know you should learn English.
+You want to learn English.
+You've downloaded many apps.
+But you just haven't truly started.
 
-为什么？
+Why?
 
-因为「开始」意味着承认：我现在不够好。  
-「开始」意味着面对：也许我会失败。  
-「开始」意味着承诺：我要做一件长期的事。
+Because "starting" means admitting: I'm not good enough right now.
+"Starting" means facing: maybe I'll fail.
+"Starting" means committing: I'm taking on something long-term.
 
-这些都太重了。  
-所以我们拖着。  
-明天开始，下周开始，下个月开始。
+All of that is too heavy.
+So we procrastinate.
+Tomorrow, next week, next month.
 
-这个产品试图让「开始」变轻一点。
+This product tries to make "starting" a little lighter.
 
-Onboarding 不是让你背单词，是让你聊天。  
-用英语聊聊你是谁，你喜欢什么。  
-不管你写得多磕巴，SensAlly Agent永远会成为你最可靠的盟友。  
-它不是在测试你，是在认识你。
+Onboarding isn't about memorizing vocabulary — it's about chatting.
+Chat in English about who you are, what you like.
+No matter how clumsy your writing, SensAlly Agent will always be your most reliable ally.
+It's not testing you — it's getting to know you.
 
-然后你发现：咦，我已经在学了。
+Then you realize: wait, I'm already learning.
 
-每一次学习，都不会让你背负任务。  
-你选自己选择如何学，学多少。  
-可以只学 1 个。  
-1 个即是开始。
+Every learning session carries no burden of tasks.
+You choose how to learn, how much to learn.
+Even just 1 word is fine.
+1 is a start.
 
-它在说：开始不需要很大的决心，不需要准备好，不需要「从今天起我要怎样怎样」。
+It's saying: starting doesn't require great determination, doesn't require being ready, doesn't require "from today on I will..."
 
-来就是开始。  
-来一点就是开始。
+Showing up is starting.
+Showing up a little is starting.
 
-开始了，就会有下一步。  
-下一步，再下一步。  
-不知不觉，你已经在路上了。
+Once you've started, there will be a next step.
+Then another step.
+Before you know it, you're already on the road.
 
-## **关于「回来」**
+## **About "Coming Back"**
 
-比开始更难的，是断了之后回来。
+Harder than starting is coming back after a break.
 
-你学了一个月，挺好的，然后生活出了点状况。  
-忙了，累了，顾不上了。  
-一周没学，两周没学，一个月没学。
+You studied for a month, things were going well, then life threw something at you.
+Busy, tired, couldn't manage.
+One week without studying, two weeks, a month.
 
-这时候 APP 就在手机里躺着，像一个无声的指责。  
-你不敢点开它。  
-因为点开就要面对：「我又失败了。」
+The app just sits there on your phone, like a silent accusation.
+You don't dare open it.
+Because opening it means facing: "I failed again."
 
-很多人的学习就是这样断掉的。  
-不是不想学，是不敢回来。
+This is how many people's learning gets severed.
+Not because they don't want to learn — because they're afraid to come back.
 
-这个产品做了一件很小但很重要的事：它不指责你。
+This product does something small but important: it doesn't blame you.
 
-你一个月没来，打开它，它不会说「你已经 30 天没学习了」。  
-不会有那种让你愧疚的统计数据摆在脸上。
+You haven't come in a month. Open it. It won't say "You haven't studied in 30 days."
+There won't be guilt-inducing statistics staring you in the face.
 
-它就像什么都没发生过一样。
+It acts as if nothing happened.
 
-因为你之前学的东西还在。  
-你不需要从头来。  
-你只需要继续。
+Because what you learned before is still there.
+You don't need to start over.
+You just need to continue.
 
-这是一种无声的宽容。
+This is a silent grace.
 
-它在说：我知道你会断，我知道你会回来，我会一直在这里等你。  
-不急，慢慢来。
+It's saying: I know you'll take breaks. I know you'll come back. I'll always be here waiting.
+No rush. Take your time.
 
-当「回来」变得不羞耻，你就会更容易回来。  
-当你更容易回来，你就不会真正放弃。
+When "coming back" stops feeling shameful, you'll come back more easily.
+When you come back more easily, you'll never truly give up.
 
-## **关于「够了」**
+## **About "Enough"**
 
-什么时候算学好英语了？
+When are you "good enough" at English?
 
-考到多少分？  
-能和外国人聊多久？  
-能看懂多少比例的原版书？
+What score do you need?
+How long can you chat with a foreigner?
+What percentage of an original English book can you understand?
 
-我们总觉得有一个终点。  
-到了那个终点，就「学好了」，就「够了」，就可以停下来了。
+We always feel there's a finish line.
+Reach it and you've "mastered it," it's "enough," you can stop.
 
-但语言是活的。  
-你永远有不认识的词，永远有听不懂的口音，永远有表达不出来的意思。  
-母语者也一样。
+But language is alive.
+You'll always have words you don't know, accents you can't understand, meanings you can't express.
+Native speakers are the same.
 
-没有「够了」的那一天，只有「更好」的每一天。
+There's never a day when it's "enough" — only a day when it's "better."
 
-但这不是说你要永远焦虑、永远觉得自己不够好。  
-恰恰相反。
+But this doesn't mean you should be forever anxious, forever feeling not good enough.
+Quite the opposite.
 
-当你接受「没有终点」，你反而可以放松了。
+When you accept "there is no finish line," you can actually relax.
 
-你不是在冲刺，你是在散步。  
-不是在赶路，是在路上。  
-每一天都是过程的一部分，不是通往终点的苦役。
+You're not sprinting — you're strolling.
+Not rushing to a destination — just being on the road.
+Every day is part of the journey, not a forced march toward a finish line.
 
-这个产品的设计，没有一个「毕业」的概念。  
-没有「恭喜你学完了」。  
-因为每一个学科本身就学不完。
+This product's design has no concept of "graduation."
+No "congratulations, you've finished."
+Because no subject can truly be finished.
 
-它只是陪你走。  
-今天学这个，明天复习那个，后天遇到新的。  
-一直走，一直走。
+It just walks with you.
+Today learn this, tomorrow review that, the day after encounter something new.
+Keep walking, keep walking.
 
-也许「够了」的意思不是「到了」，而是「我和学习的关系变好了」。
+Perhaps "enough" doesn't mean "arrived" — it means "my relationship with learning has improved."
 
-我不再害怕学习了。  
-我不再逼自己了。  
-我可以享受这个过程了。
+I'm no longer afraid of learning.
+I'm no longer forcing myself.
+I can enjoy the process.
 
-那就够了。
+That's enough.
 
-## **关于「完美主义」**
+## **About "Perfectionism"**
 
-有一种人学不好。不是因为笨，恰恰是因为太聪明。
+There's a type of person who can't learn well. Not because they're unintelligent — precisely because they're too smart.
 
-他们脑子里有一个对完美或者高分的追求，恐惧也就会随之诞生
+In their minds lives a pursuit of perfection or high scores, and fear is born alongside it.
 
-因为**完美主义的本质就是恐惧。**怕做不好，所以不做。怕不完美，所以不开始。
+Because **the essence of perfectionism is fear.** Afraid of doing it poorly, so they don't do it. Afraid of imperfection, so they don't start.
 
-**而这个产品的设计，在很多地方打破完美主义的魔咒：**
+**This product's design breaks the spell of perfectionism in many ways:**
 
-| ——你不需要每天学。有空学就好。系统不会用「你应该」来压你。 |
+| — You don't need to study every day. Study when you have time. The system won't pressure you with "you should." |
 | :---- |
 
- 
 
-**90% 的记忆保持率目标。**
 
-| ——不是 100%记住。你可以忘掉 10%。不完美是被设计进去的。 |
+**90% memory retention target.**
+
+| — Not 100%. You can forget 10%. Imperfection is designed in. |
 | :---- |
 
- 
 
-**学习流程可编排。**
 
-| ——四个模块，你可以任意编排。不喜欢朗读？跳过。不想做题？跳过。你的学习你做主。 |
+**Customizable learning flow.**
+
+| — Four modules, arrange them however you want. Don't like audio practice? Skip it. Don't want exercises? Skip them. Your learning, your rules. |
 | :---- |
 
- 
 
-**每次学几个单词都行。**
 
-| ——不是必须学完一整个 list。学一个也行。一个也是进步。 |
+**Learn as few words as you want each time.**
+
+| — You don't have to finish an entire list. One word is fine. One word is still progress. |
 | :---- |
 
+
+
+**It's saying: you don't need the perfect time, the perfect state, or the perfect method. Just come. A little is a little.**
+
+**What perfectionists need to hear isn't "try harder" — it's "that's enough."**
+
+**You don't need to be the best. You just need to do it. Doing a little is more than doing nothing.**
+
  
 
-**它在说：不需要完美的时间，不需要完美的状态，不需要完美的方法。来就好。来一点是一点。**
-
-**完美主义者需要听到的话不是「加油」，是「够了」。**
-
-**你不需要做到最好。你只需要去做。做一点，就比不做多一点。**
-
- 
-
-# **自由**
+# **Freedom**
 
 ━━━━━━━━
 
-说到底，为什么要学英语？
+At the end of the day, why learn English?
 
-表面上是：能听懂，能说，能读，能写。
+On the surface: to understand, to speak, to read, to write.
 
-再深一层是：考试，求职，移民。
+One layer deeper: exams, jobs, immigration.
 
-但还有更深的一层：自由。
+But there's an even deeper layer: freedom.
 
-不会英语的时候，你是被困住的。
+When you don't know English, you're trapped.
 
-看到英文资料，要等翻译。听到英文对话，要看字幕。想和外国人交流，要比划。你的世界有一堵并不透光的透明魔幻玻璃，那边的东西你够不着。  
-会英语的时候，魔幻玻璃消失了。
+See English materials — wait for a translation. Hear English conversation — need subtitles. Want to talk to a foreigner — resort to gestures. Your world has an invisible enchanted glass wall; you can't reach what's on the other side.
+When you know English, the glass disappears.
 
-数不清的英文视频，你随便看。英文论坛上最新的讨论，你能参与。国外的朋友，你能直接聊。那些只有英文版的书、文章、播客，都不再和你无关。
+Countless English videos — watch whatever you want. The latest discussions on English forums — you can join. Friends abroad — you can talk directly. Books, articles, podcasts that only exist in English are no longer irrelevant to you.
 
-这是一种具体的自由：不被语言障碍困住的自由。
+This is a concrete freedom: freedom from being trapped by a language barrier.
 
-但还有更深的一层。
+But there's a deeper layer still.
 
-当你能用另一种语言思考的时候，你从自己的文化里稍微跳出来了一点。你能看见一些原来看不见的东西。不是说哪个更好，而是——你有了选择。
+When you can think in another language, you step slightly outside your own culture. You can see things that were invisible before. Not that one is better — but now you have a choice.
 
-你可以选择用中文思考这个问题，或者用英文。你可以选择看中文互联网的讨论，或者英文互联网的。你可以选择留在原来的世界，或者走进另一个。
+You can choose to think about this question in Chinese, or in English. You can choose to read Chinese internet discussions, or English ones. You can choose to stay in your original world, or step into another.
 
-会一门语言，是多一种选择。
+Knowing a language is having one more choice.
 
-多一种选择，就是多一点自由。
+One more choice is a little more freedom.
 
-你想成为一个「会英语的人」，不是「学过英语的人」。
+You want to become "a person who knows English," not "a person who studied English."
 
-这两个身份是不同的。
+These are two different identities.
 
-「学过英语的人」是外在的：我上过课，背过单词，考过试。
+"A person who studied English" is external: I took classes, memorized words, passed exams.
 
-「会英语的人」是内在的：英语是我的一部分，我可以用它思考、表达、生活。
+"A person who knows English" is internal: English is part of me. I can think, express, and live in it.
 
-从「学过」到「会」，中间是一段身份的转变。
+From "studied" to "know" — there's an identity transformation in between.
 
-这个转变不是一天发生的。它发生在无数个小时刻：
+This transformation doesn't happen in a day. It happens in countless small moments:
 
-第一次听懂一句话没看字幕。第一次脱口而出一个词而不是先想中文。第一次做梦梦到英语。第一次用英语思考一个问题，因为那个概念中文里没有。
+The first time you understood a sentence without subtitles. The first time a word came out of your mouth before you thought of the Chinese equivalent. The first time you dreamed in English. The first time you thought about a problem in English because the concept didn't exist in Chinese.
 
-这些时刻累积起来，某一天你意识到：我不是在「学」英语了，我是在「用」英语生活。
+These moments accumulate until one day you realize: I'm not "studying" English anymore — I'm living in English.
 
-学一门语言，不只是学一套符号系统。
+Learning a language isn't just learning a symbol system.
 
-你有没有这种体验：有些词，中文里没有，但英文里有。当你学会那个英文词，你突然能「想」一个以前想不了的东西。
+Have you had this experience: some words don't exist in Chinese, but do in English. When you learn that English word, you can suddenly "think" something you couldn't think before.
 
-语言不只是表达思想的工具，语言塑造思想本身。
+Language isn't just a tool for expressing thought — language shapes thought itself.
 
-当你会英语，你不只是多了一种说话的方式。你多了一种思考的方式，一种感受的方式，一种存在的方式。
+When you know English, you don't just have another way of speaking. You have another way of thinking, another way of feeling, another way of being.
 
-某种意义上，会英语的你，和不会英语的你，是稍微不同的两个人。
+In a sense, the you who knows English and the you who doesn't are slightly different people.
 
-学英语，不是抛弃原来的你，是在原来的你上面，长出新的可能性。
+Learning English isn't abandoning who you are — it's growing new possibilities on top of who you already are.
 
-这个产品的设计，指向的是这个转变。
+This product's design points toward this transformation.
 
-它不只是让你记住单词，它让你在自己熟悉的语境里遇到单词。
+It doesn't just help you memorize words — it lets you encounter words in contexts you're already familiar with.
 
-单词出现在你感兴趣的场景里，就不再是「要背的东西」，而是「你世界的一部分」。
+When words appear in scenes you care about, they stop being "things to memorize" and become "part of your world."
 
-当英语和你的生活、你的兴趣、你的身份交织在一起，你就不是在「学」了。
+When English interweaves with your life, your interests, and your identity, you're no longer "studying."
 
-你是在「成为」。
+You're "becoming."
 
-这个产品，在帮你走向这种自由。
+This product is helping you walk toward that freedom.
 
-不是逼你，不是催你，是陪你。记住你是谁，按你的节奏，顺着你的兴趣。慢慢走。
+Not pushing you, not rushing you — walking with you. Remembering who you are, at your pace, following your interests. Slowly.
 
-魔幻玻璃会一点点变矮，直到有一天你发现，你可以跨过去了。
+The enchanted glass will get shorter and shorter, until one day you find you can step right over it.
 
- 
 
-# **勇气**
 
-━━━━━━━━
-
-你可能会觉得奇怪：学习需要什么勇气？
-
-**顺着兴趣走，需要勇气。**
-
-因为我们被教育过：学习就是要吃苦的，太舒服肯定不对。当你选择用自己喜欢的方式学，内心会有一个声音说「这是不是在偷懒」。你需要勇气去相信：我可以用我的方式。
-
-**善待自己，需要勇气。**
-
-因为自我鞭策是我们习惯的方式。忘了一个词就骂自己笨，三天没学就觉得自己废物。停止这种内耗，对自己温柔，反而需要勇气。你需要勇气去说：我可以慢一点，我可以不完美。
-
-**接受被理解，需要勇气。**
-
-因为被理解意味着被看见。被看见意味着你无处躲藏。你的水平、你的弱点、你的进度，都被一个存在知道了。对于很多习惯躲在「我没认真学」后面的人来说，这是暴露。**但只有暴露了，才能被真正帮助。**
-
-**所以这三件事——被理解、善待自己、以兴趣为路——它们不只是方法，它们是选择。是一种需要勇气的、对自己温柔的选择。**
-
- 
-
-# **相信**
+# **Courage**
 
 ━━━━━━━━
 
-**最后，让我说说这个产品相信什么。**
+You might find it strange: what does learning have to do with courage?
 
-它相信**每个人都能学会。**
+**Following your interest takes courage.**
 
-不是某些人有天赋，某些人没有。是方法对不对，节奏适不适合，有没有被好好对待。
+Because we were taught: learning is supposed to be hard. If it feels too comfortable, something must be wrong. When you choose to learn in a way you enjoy, a voice inside says "isn't this just being lazy?" You need courage to believe: I can do it my way.
 
-它相信**兴趣比毅力重要。**
+**Being kind to yourself takes courage.**
 
-不是逼自己，是顺着自己。热爱是燃料，苦撑是消耗。
+Because self-flagellation is what we're used to. Forget a word and call yourself stupid. Three days without studying and feel like a failure. Stopping this internal drain, being gentle with yourself — that actually requires courage. You need courage to say: I can go slower. I can be imperfect.
 
-它相信**慢就是快。**
+**Accepting being understood takes courage.**
 
-扎实比速度重要。一步一步走，比跑两步摔一跤走得更远。
+Because being understood means being seen. Being seen means you have nowhere to hide. Your level, your weaknesses, your progress — all known by an entity. For many who are used to hiding behind "I wasn't really trying," this is exposure. **But only through exposure can you be truly helped.**
 
-它相信**失败是过程的一部分。**
+**So these three things — being understood, being kind to yourself, following your interest — they're not just methods. They're choices. Choices that require courage — gentle choices toward yourself.**
 
-忘记不是失败，是学习。断掉不是失败，是休息。回来继续就好。
 
-它相信**人应该被温柔对待。**
 
-尤其是在学习的时候。尤其是在脆弱的时候。尤其是在面对自己「不够好」的时候。
+# **Belief**
 
-它相信**被理解是一种力量。**
+━━━━━━━━
 
-当你被看见，被记住，被用你的方式对待，你会长出力量来。
+**Finally, let me share what this product believes.**
 
-这些信念，**藏在每一行代码里，藏在每一个设计决策里。**
+It believes **everyone can learn.**
 
-**不是写在 slogan 上的漂亮话**，是真的这样做的。
+Not that some people have talent and others don't. It's about whether the method is right, whether the rhythm fits, whether you've been treated well.
+
+It believes **interest matters more than willpower.**
+
+Not forcing yourself — flowing with yourself. Passion is fuel; grinding is depletion.
+
+It believes **slow is fast.**
+
+Solid foundations matter more than speed. Walking step by step gets you further than sprinting two steps and falling.
+
+It believes **failure is part of the process.**
+
+Forgetting isn't failure — it's learning. Taking a break isn't failure — it's rest. Just come back and continue.
+
+It believes **people deserve to be treated gently.**
+
+Especially when learning. Especially when vulnerable. Especially when facing their own "not good enough."
+
+It believes **being understood is a form of strength.**
+
+When you are seen, remembered, and treated in a way that fits you, you grow stronger.
+
+These beliefs are **embedded in every line of code, in every design decision.**
+
+**Not pretty words on a slogan** — actually practiced.
 
 
 ---
 
-## 📬 联系我们
+## 📬 Contact Us
 
-- **产品访问**：[app.sensally.com](https://app.sensally.com)
-- **客服邮箱**：support@sensally.com
+- **Product**: [app.sensally.com](https://app.sensally.com)
+- **Support Email**: support@sensally.com
 
